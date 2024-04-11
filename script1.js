@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
             animateTyping("pero sé que lo estás <3 ", function () {
               console.log("Tercer mensaje mostrado");
             }, terLetterContent);
-          }, 3000); // Espera 1 segundo antes de mostrar el tercer mensaje
+          }, 1000); // Espera 1 segundo antes de mostrar el tercer mensaje
         }, secondLetterContent);
       }, 1000);
     }, letterContent);

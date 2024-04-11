@@ -16,8 +16,8 @@ boton
   cursor: pointer; /* Cursor tipo puntero al pasar el mouse */
   border-radius: 5px; /* Bordes redondeados */
   position: absolute; /* Posición absoluta para el botón */
-  top: 170px; /* Posición en Y */
-  left: 120px; /* Posición en X */
+  top: 300px; /* Posición en Y */
+  left: 130px; /* Posición en X */
 }
 
 #showLetterBtn:hover {
@@ -70,6 +70,22 @@ footer .wrapper {
 }
 .menu {
   float: right;
+}
+#escuchaBtn {
+  background-color: #ff69b4; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  border: none; /* Sin borde */
+  padding: 10px 20px; /* Espaciado interno */
+  font-size: 16px; /* Tamaño de fuente */
+  cursor: pointer; /* Cursor tipo puntero al pasar el mouse */
+  border-radius: 5px; /* Bordes redondeados */
+  position: absolute; /* Posición absoluta para el botón */
+  top: 570px; /* Posición en Y */
+  left: 130px; /* Posición en X */
+}
+
+#escuchaBtn:hover {
+  background-color: #ff1493; /* Color de fondo al pasar el mouse */
 }
 
 /* segundo mensaje */

@@ -32,6 +32,7 @@
       <p id="terLetterContent"></p>
       <img src="img/flork4_shao.png" alt="Imagen del mensaje C" />
     </div>
+    <button id="escuchaBtn" style="display: none">Escucha</button>
   </section>
   <footer>
     <div class="wrapper">
@@ -42,6 +43,15 @@
   <script>
     document.getElementById("showLetterBtn").addEventListener("click", function() {
       this.style.display = "none"; // Ocultar el botón al hacer clic
+      document.getElementById("letter").style.display = "block"; // Mostrar el primer mensaje
+      setTimeout(function() {
+        document.getElementById("secondLetter").style.display = "block"; // Mostrar el segundo mensaje después de 4 segundos
+        document.getElementById("escuchaBtn").style.display = "block"; // Mostrar el botón "Escucha"
+      }, 10000); // Esperar 4 segundos antes de mostrar el segundo mensaje y el botón "Escucha"
+    });
+
+    document.getElementById("escuchaBtn").addEventListener("click", function() {
+      window.location.href = "https://youtu.be/PQPGPrAL_J4?t=14"; // Redirigir al enlace de YouTube al hacer clic en el botón "Escucha"
     });
   </script>
 </body>
