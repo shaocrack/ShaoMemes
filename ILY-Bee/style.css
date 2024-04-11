@@ -1,0 +1,268 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*
+boton
+*/
+#showLetterBtn {
+  background-color: #69d0ff; /* Color de fondo */
+  color: #5a1b1b; /* Color del texto */
+  border: none; /* Sin borde */
+  padding: 10px 20px; /* Espaciado interno */
+  font-size: 16px; /* Tamaño de fuente */
+  cursor: pointer; /* Cursor tipo puntero al pasar el mouse */
+  border-radius: 5px; /* Bordes redondeados */
+  position: absolute; /* Posición absoluta para el botón */
+  top: 100px; /* Posición en Y */
+  left: 750px; /* Posición en X */
+}
+
+#showLetterBtn:hover {
+  background-color: #ff1493; /* Color de fondo al pasar el mouse */
+}
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+  background:brown;
+  color: rgb(26, 16, 16);
+  font-weight: bold; 
+}
+
+.wrapper {
+  width: 1100px;
+  margin: auto;
+  position: relative; /* Posición relativa para el contenedor */
+}
+
+footer {
+  background-color: #333; /* Color de fondo del footer */
+  color: #fff; /* Color del texto */
+  padding: 20px; /* Espaciado interno */
+  position: absolute; /* Posición absoluta para el footer */
+  bottom: 0; /* Posición en Y */
+  left: 0; /* Posición en X */
+  width: 100%; /* Ancho del footer igual al contenedor */
+  text-align: center;
+}
+
+footer .wrapper {
+  max-width: 1100px; /* Ancho máximo del contenido */
+  margin: 0 auto; /* Centrar el contenido dentro del footer */
+}
+
+.logo a {
+  font-size: 50px;
+  font-weight: 800;
+  float: left;
+  font-family: courier;
+  color: rgb(182, 31, 56);
+  text-align: center;
+}
+#j {
+  
+  font-weight: bold; /* Texto en negrita */
+  text-align: left;
+   /* Subrayar el texto */
+}
+.menu {
+  float: right;
+}
+
+/* segundo mensaje */
+#secondLetter {
+  margin-top: 20px;
+  background-color: #eea9ff;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute; /* Posición absoluta para el segundo mensaje */
+  top: 170px; /* Posición en Y */
+  left: 320px; /* Posición en X */
+
+}
+#terLetter {
+  margin-top: 20px;
+  background-color: #eea9ff;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute; /* Posición absoluta para el segundo mensaje */
+  top: 190px; /* Posición en Y */
+  left: 560px; /* Posición en X */
+
+}
+
+#letter h3,
+#secondLetter h3,
+#terLetterContent h3 {
+  color: #ff0000; /* Color del título del mensaje */
+}
+
+#letter p,
+#secondLetter p,
+#terLetterContent p {
+  color: #333; /* Color del texto del mensaje */
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: black;
+  z-index: 1;
+  border-bottom: 5px solid rgb(100, 19, 33);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.kolom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "comic sans ms";
+  color: rgb(105, 19, 19);
+}
+
+h2 {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: rgb(148, 20, 41);
+  width: 100%;
+  line-height: 50px;
+}
+
+h3 {
+  font-family: "comic sans ms";
+  color: rgb(209, 0, 0);
+}
+
+a.tbl-biru {
+  background: #3f72af;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #c72222;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.tbl-biru:hover {
+  background: #801d3b;
+  text-decoration: none;
+}
+
+a.tbl-pink {
+  background: #fc5185;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #b12f2f;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.tbl-pink:hover {
+  background: #3f72af;
+  text-decoration: none;
+}
+
+p {
+  margin: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+  text-align: center;
+  width: 100%;
+}
+
+#copyright {
+  text-align: center;
+  width: 100%;
+  padding: 50px 0px 50px 0px;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 991.98px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  .logo a {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+/* CHAT GPT */
+.button a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #111;
+}
+
+#letter {
+  margin-top: 20px;
+  background-color: #eea9ff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.typing-animation {
+  animation: typing 3s steps(40) forwards;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  border-right: 0.15em solid orange;
+  width: 0;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
