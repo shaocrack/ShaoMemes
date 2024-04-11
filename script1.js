@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
   showLetterBtn.addEventListener("click", function () {
     letter.style.display = "block";
     animateTyping("Que linda que te ves hoy C:", function () {
+      letter.style.display = "none"; // Ocultar la primera imagen
       setTimeout(function () {
         secondLetter.style.display = "block";
         animateTyping("No te he visto :C", function () {
@@ -18,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
             animateTyping("pero sé que lo estás <3 ", function () {
               console.log("Tercer mensaje mostrado");
             }, terLetterContent);
-          }, 1000); // Espera 1 segundo antes de mostrar el tercer mensaje
+          }, 2000); // Espera 1 segundo antes de mostrar el tercer mensaje
         }, secondLetterContent);
       }, 1000);
     }, letterContent);
@@ -33,6 +34,6 @@ document.addEventListener("DOMContentLoaded", function () {
         clearInterval(typingInterval);
         if (callback) callback();
       }
-    }, 100);
+    }, 80);
   }
 });

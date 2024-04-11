@@ -16,8 +16,8 @@ boton
   cursor: pointer; /* Cursor tipo puntero al pasar el mouse */
   border-radius: 5px; /* Bordes redondeados */
   position: absolute; /* Posición absoluta para el botón */
-  top: 100px; /* Posición en Y */
-  left: 750px; /* Posición en X */
+  top: 170px; /* Posición en Y */
+  left: 120px; /* Posición en X */
 }
 
 #showLetterBtn:hover {
@@ -80,7 +80,7 @@ footer .wrapper {
   border-radius: 10px;
   position: absolute; /* Posición absoluta para el segundo mensaje */
   top: 170px; /* Posición en Y */
-  left: 320px; /* Posición en X */
+  left: 50px; /* Posición en X */
 }
 
 #terLetter {
@@ -89,8 +89,8 @@ footer .wrapper {
   padding: 20px;
   border-radius: 10px;
   position: absolute; /* Posición absoluta para el segundo mensaje */
-  top: 190px; /* Posición en Y */
-  left: 560px; /* Posición en X */
+  top: 130px; /* Posición en Y */
+  left: 40px; /* Posición en X */
 }
 
 #letter h3,
@@ -221,7 +221,7 @@ p {
   margin-top: 50px;
 }
 
-@media screen and (max-width: 991.98px) {
+@media screen and (max-width: 767px) {
   .wrapper {
     width: 90%;
   }
